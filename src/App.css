@@ -23,9 +23,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+h2{
+  font-family: "Playfair-display";
+  
+}
 
 .App-link {
-  color: #61dafb;
+  color: #73e1ff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +39,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card{
+  min-width: 30vw !important;
+  height: max-content !important;
 }
